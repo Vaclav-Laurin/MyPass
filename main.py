@@ -149,6 +149,8 @@ def save():
             messagebox.showinfo(title="Job's done ;)", message="Your password has been successfully saved.")
     else:
         messagebox.showinfo(title="Pass Saving", message="Action was declined.")
+        
+        
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title(APP_NAME)
